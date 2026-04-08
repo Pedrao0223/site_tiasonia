@@ -16,6 +16,7 @@ header {
 
 }
 
+
 nav {
 
     display: flex;
@@ -33,12 +34,17 @@ ul {
     margin-right: 50px;
 
 }
-
 a {
 
     text-decoration: none;
     color: #FFFF;
+    text-decoration: none;
+    color: #FFFF;
     font-family: "Playwrite IE", cursive;
+    font-size: 20px;
+    border: 2px solid #FFFF;
+    padding: 10px;
+    border-radius: 0 20px;
     font-size: 20px;
     border: 2px solid #FFFF;
     padding: 10px;
@@ -48,12 +54,17 @@ a {
 
 a:hover {
     background-color: #ffff;
+a:hover {
+    background-color: #ffff;
     color: green;
+}
 }
 
 .icones {
+.icones {
 
     padding: 10px 50px;
+}
 }
 
 .logo {
@@ -102,9 +113,6 @@ a:hover {
     
 } 
 
-#reservas__titulo{
-    
-} 
 
 .Sobre_Titulo{
     color: #3B929C;
