@@ -4,7 +4,7 @@
 
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     font-family: "Playwrite IE", cursive;
 }
 
@@ -34,6 +34,7 @@ ul {
     margin-right: 50px;
 
 }
+
 a {
 
     text-decoration: none;
@@ -52,25 +53,24 @@ a {
 
 }
 
-a:hover {
-    background-color: #ffff;
-a:hover {
-    background-color: #ffff;
-    color: green;
-}
+
+
+    a:hover {
+        background-color: #ffff;
+        color: green;
+
 }
 
-.icones {
-.icones {
+    .icones {
 
-    padding: 10px 50px;
-}
-}
+        padding: 10px 50px;
+    }
+
 
 .logo {
 
-    border: 2px solid #FFFF;
-    border-radius: 20px;
+    border: 2px dashed pink;
+    
 
 
 }
@@ -83,61 +83,148 @@ a:hover {
 #banner__image {
     width: 1100px;
     margin-top: 10px;
-} 
+}
 
-#reservas{
-    width: 1100px; 
+#reservas {
+    width: 1100px;
     height: 144px;
-    border: 2px dashed #3B929C ; 
-    color: #3B929C; 
-    text-align: center; 
-    font-size: 24px; 
+    border: 2px dashed #3B929C;
+    color: #3B929C;
+    text-align: center;
+    font-size: 25px;
     margin-top: 10px;
 
-     
-} 
 
-.area_banner{
-    display: flex; 
-    flex-direction: column; 
+}
+
+.area_banner {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-} 
+}
 
-#reservas__botao{
-    padding: 20px 60px; 
-    color: #ffff; 
+#reservas__botao {
+    padding: 20px 60px;
+    color: #ffff;
     font-size: 15px;
-    background-color: #3B929C; 
-    border: none; 
+    background-color: #3B929C;
+    border: none;
     border-radius: 15px; 
     
-} 
+
+}
 
 
-.Sobre_Titulo{
+.Sobre_Titulo {
+    color: #3B929C; 
+    text-align: center;
+}
+
+.Sobre_texto {
     color: #3B929C;
+    
+}
 
-
-} 
-
-.Sobre_texto{
-    color: #3B929C;
-} 
-
-.area_sobre{
-    display: flex; 
-    width: 1100px; 
-    margin: 20px auto; 
+.area_sobre {
+    display: flex;
+    width: 1100px;
+    margin: 20px auto;
     justify-content: space-between;
+
+}
+
+.Sobre {
+    color: #3B929C;
+    width: 700px;
+
+}
+
+.sobre_foto {
+    width: 500px;
+    border: 5px dashed #0000; 
+    border-radius: 50px;
+} 
+
+.rodape{
+    background-color: #3B929C; 
+    margin-top: 500px;
     
 } 
 
-.Sobre{
-    color: #3B929C; 
-    width: 700px;
+.texto_rodape{
+    margin: auto;
+    color: #ffff;
+}
 
+.area_busca{
+    width: 1400px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;    
+    margin: auto; 
+    align-items: center; 
+    margin-top: 50px;
+    
 } 
 
-.sobre_foto{
-    width: 500px;
+.Catalogo_titulo{
+    font-size: 20px;
+    color: #3B929C;
+    margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+.busca{
+    width: 764px;
+    height: 40px; 
+    border: 2px solid #3B929C; 
+    border-radius: 20px; 
+    padding: 5px; 
+    display: flex;
+} 
+
+.busca__campo{
+    flex: 1;
+    border: none; 
+    outline: none; 
+    font-size: 12px;
+} 
+
+.busca__botao{
+    font-size: 20px;
+    border: none;
+    background: none;
+    color: #3B929C;
+}
+
+.catalogo{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 50px; 
+    width: 1400px;
+    margin: 100px auto;
+}
+
+
+.bordados > a > img{
+    width: 400px; 
+    border-radius: 20px;
+}
+
+.bordados {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; 
+    width: 300px;
+    border-radius: 20px;
+    
+
+}
+
+
+
