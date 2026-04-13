@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap');
 
 
+:root{
+
+    --cor-principal: #3B929C;
+    --cor-secundario: #FFFFFF;
+    --cor-botao: #c77270;
+}
+
+
+
+
+
 
 * {
     margin: 0;
@@ -8,11 +19,19 @@
     font-family: "Playwrite IE", cursive;
 }
 
+#home {
+    scroll-margin-top: 110px;
+}
 
+#bordados {
+    scroll-margin-top: 140px;
+}
 header {
-    background-color: #3B929C;
+    background-color: var(--cor-principal);
     width: 100%;
-    height: 110px;
+    height: 110px; 
+    position: fixed; 
+    top: 0;
 
 }
 
@@ -38,16 +57,16 @@ ul {
 a {
 
     text-decoration: none;
-    color: #FFFF;
+    color: var(--cor-secundario);
     text-decoration: none;
-    color: #FFFF;
+    color: var(--cor-secundario);
     font-family: "Playwrite IE", cursive;
     font-size: 20px;
-    border: 2px solid #FFFF;
+    border: 2px solid var(--cor-secundario);
     padding: 10px;
     border-radius: 0 20px;
     font-size: 20px;
-    border: 2px solid #FFFF;
+    border: 2px solid var(--cor-secundario);
     padding: 10px;
     border-radius: 0 20px;
 
@@ -55,22 +74,36 @@ a {
 
 
 
-    a:hover {
-        background-color: #ffff;
-        color: green;
+a:hover {
+    background-color: var(--cor-secundario);
+    color: green;
 
 }
 
-    .icones {
 
-        padding: 10px 50px;
-    }
+a:focus {
+    background-color: var(--cor-secundario);
+    color: green;
 
+}
+
+
+
+.icones {
+
+    padding: 10px 50px;
+}
+
+main{
+    margin-top: 110px;
+}
 
 .logo {
 
-    border: 2px dashed pink;
-    
+    border: 10px dashed var(--cor-botao);
+    height: 90px;
+    border-radius: 50px;
+
 
 
 }
@@ -88,7 +121,7 @@ a {
 #reservas {
     width: 1100px;
     height: 144px;
-    border: 2px dashed #3B929C;
+    border: 2px dashed var(--cor-principal);
     color: #3B929C;
     text-align: center;
     font-size: 25px;
@@ -105,23 +138,27 @@ a {
 
 #reservas__botao {
     padding: 20px 60px;
-    color: #ffff;
+    color: var(--cor-secundario);
     font-size: 15px;
-    background-color: #3B929C;
+    background-color: var(--cor-principal);
     border: none;
-    border-radius: 15px; 
-    
+    border-radius: 15px;
+
 
 }
 
+#reservas__botao:hover{
+    background-color: var(--cor-botao);
+    
+}
 
 .Sobre_Titulo {
-    color: #3B929C; 
+    color: var(--cor-principal);
     text-align: center;
 }
 
 .Sobre_texto {
-    color: #3B929C;
+    color: var(--cor-principal); 
     
 }
 
@@ -134,97 +171,96 @@ a {
 }
 
 .Sobre {
-    color: #3B929C;
+    color: var(--cor-principal);
     width: 700px;
 
 }
 
-.sobre_foto {
-    width: 500px;
-    border: 5px dashed #0000; 
-    border-radius: 50px;
-} 
 
-.rodape{
-    background-color: #3B929C; 
-    margin-top: 500px;
-    
-} 
 
-.texto_rodape{
+
+.texto_rodape {
     margin: auto;
-    color: #ffff;
+    color: var(--cor-secundario);
 }
 
-.area_busca{
+.area_busca {
     width: 1400px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    justify-content: center;    
-    margin: auto; 
-    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    align-items: center;
     margin-top: 50px;
-    
-} 
 
-.Catalogo_titulo{
+}
+
+.Catalogo_titulo {
     font-size: 20px;
-    color: #3B929C;
+    color: var(--cor-principal);
     margin-bottom: 20px;
 }
 
 
-
-
-
-
-
-.busca{
+.busca {
     width: 764px;
-    height: 40px; 
-    border: 2px solid #3B929C; 
-    border-radius: 20px; 
-    padding: 5px; 
+    height: 40px;
+    border: 2px solid var(--cor-principal);
+    border-radius: 20px;
+    padding: 5px;
     display: flex;
-} 
+}
 
-.busca__campo{
+.busca__campo {
     flex: 1;
-    border: none; 
-    outline: none; 
+    border: none;
+    outline: none;
     font-size: 12px;
-} 
+}
 
-.busca__botao{
+.busca__botao {
     font-size: 20px;
     border: none;
     background: none;
-    color: #3B929C;
+    color: var(--cor-principal);
 }
 
-.catalogo{
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 50px; 
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
     width: 1400px;
     margin: 100px auto;
 }
 
 
-.bordados > a > img{
-    width: 400px; 
-    border-radius: 20px;
-}
-
-.bordados {
+.bordados>a>img {
     display: flex;
     flex-direction: column;
-    margin-top: 20px; 
-    width: 300px;
-    border-radius: 20px;
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 50px;
     
+}
 
+.texto_imagem{
+    text-align: center;
 }
 
 
 
+
+
+
+
+
+.rodape {
+    background-color: var(--cor-principal);
+    margin-top: 500px;
+
+}
+
+.texto_rodape {
+    margin: auto;
+    color: var(--cor-secundario);
+}
