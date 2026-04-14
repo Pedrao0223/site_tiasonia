@@ -3,9 +3,10 @@
 
 :root{
 
-    --cor-principal: #3B929C;
-    --cor-secundario: #FFFFFF;
-    --cor-botao: #c77270;
+    --cor-principal: #b8aa95;
+    --cor-secundario: #5e5a54;
+    --cor-botao: #ffcfad; 
+    --largura-principal: 1600px:
 }
 
 
@@ -54,7 +55,7 @@ ul {
 
 }
 
-a {
+.icones {
 
     text-decoration: none;
     color: var(--cor-secundario);
@@ -74,18 +75,24 @@ a {
 
 
 
-a:hover {
+.icones:hover {
     background-color: var(--cor-secundario);
-    color: green;
+    color: var(--cor-principal);
 
 }
 
 
-a:focus {
+.icones:focus {
     background-color: var(--cor-secundario);
-    color: green;
+    color: var(--cor-principal);
 
 }
+
+hr{
+    width: 1500px;
+    margin: auto; 
+    border-color: var(--cor-botao);
+} 
 
 
 
@@ -100,8 +107,8 @@ main{
 
 .logo {
 
-    border: 10px dashed var(--cor-botao);
-    height: 90px;
+    border: 10px solid var(--cor-botao);
+    height: 85px;
     border-radius: 50px;
 
 
@@ -110,7 +117,7 @@ main{
 
 #banner {
 
-    width: 1100px;
+    width: var(--largura-principal);
 }
 
 #banner__image {
@@ -122,7 +129,7 @@ main{
     width: 1100px;
     height: 144px;
     border: 2px dashed var(--cor-principal);
-    color: #3B929C;
+    color: var(--cor-principal);
     text-align: center;
     font-size: 25px;
     margin-top: 10px;
@@ -185,7 +192,7 @@ main{
 }
 
 .area_busca {
-    width: 1400px;
+    width: var(--largura-principal);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,9 +235,10 @@ main{
 .catalogo {
     display: flex;
     flex-wrap: wrap;
-    gap: 150px;
+    gap: 100px;
     width: 1400px;
-    margin: 100px auto;
+    margin: 100px auto; 
+    
 }
 
 
@@ -238,15 +246,16 @@ main{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    width: 350px;
-    border-radius: 50px;
+    width: 370px;
+    border-radius: 50px; 
+    border: 10px solid var(--cor-secundario);
     
 }
 
 .texto_imagem{
     text-align: center;
+    color: var(--cor-secundario);
 }
-
 
 
 
