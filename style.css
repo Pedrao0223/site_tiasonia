@@ -124,7 +124,7 @@ main {
 }
 
 #banner__image {
-    width: 1100px;
+    width: var(--largura-principal);
     margin-top: 10px;
 }
 
@@ -275,6 +275,7 @@ main {
 .texto_rodape {
     margin: auto;
     color: var(--cor-secundario);
+    text-align: center;
 }
 
 @media (max-width: 430px) {
