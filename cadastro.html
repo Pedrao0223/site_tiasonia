@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>area-login</title>
     <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="imagens_tiasonia/icone_site.png" type="image/x-icon">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <section class="area-formulario">
             <form action="#" class="form_cadastro">
 
-                <div class="area-nome">
+                <div class="area-nome formatacao">
                     <div class="priemeiro-nome">
                         <label for="Nome">Nome</label>
                         <input type="text" id="nome" placeholder="Digite seu nome" required>
@@ -34,7 +35,7 @@
                 </div>
 
 
-                <div class="area-acesso">
+                <div class="area-acesso formatacao">
                     <div class="email">
                         <label for="email">Email</label>
                         <input type="email" id="email" placeholder="Digite seu email" required>
@@ -46,40 +47,45 @@
                         <input type="password" id="Senha" placeholder="ooooooo" required>
                     </div>
                 </div>
-                <div class="area-contato">
+                <div class="area-contato formatacao">
                     <div class="DDD">
                         <label for="DDD">DDD</label>
                         <input type="number" max="99" id="DDD" placeholder="DDD" required>
                     </div>
                     <div class="telefone">
-                        <label for="Telefone">Telefone</label>
-                        <input type="text" id="Telefone" placeholder="Digite seu telefone" required>
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" placeholder="Digite seu telefone" required>
                     </div>
                 </div>
-                <div class="area-endereco">
-                    <div class="endereco">
-                        <label for="Endereco">Endereco</label>
-                        <input type="text" id="Endereco" placeholder="Degite seu endereco" required>
+                <div class="area-endereco formatacao">
+                    <div class="endereco-numero">
+                        <div class="endereco">
+                            <label for="endereco">endereco</label>
+                            <input type="text" id="endereco" placeholder="Degite seu endereco" required>
+                        </div>
+
+                        <div class="numero">
+                            <label for="numero">numero</label>
+                            <input type="number" max="99" id="numero" placeholder="Digite seu numero" required>
+                        </div>
                     </div>
 
-                    <div class="numero">
-                        <label for="Numero">Numero</label>
-                        <input type="number" max="99" id="Numero" placeholder="Digite seu numero" required>
-                    </div>
+                    <div class="cidade-cep">
+                        <div class="cidade">
+                            <label for="cidade">cidade</label>
+                            <input type="text" id="cidade" placeholder="cidade">
+                        </div>
 
-                    <div class="cidade">
-                        <label for="cidade">cidade</label>
-                        <input type="text" id="cidade" placeholder="cidade">
-                    </div>
+                        <div class="cep">
+                            <label for="cep">cep</label>
+                            <input type="text" id="cep" placeholder="0000000">
+                        </div>
 
-                    <div class="cep">
-                        <label for="cep">cep</label>
-                        <input type="text" id="cep" placeholder="0000000">
                     </div>
 
                 </div>
 
-                <div class="area-dados">
+                <div class="area-dados formatacao">
                     <div class="data-nascimento">
                         <label for="data_de_nascimento">data_de_nascimento</label>
                         <input type="date" id="data_de_nascimento" required>
@@ -110,7 +116,7 @@
 
 
 
-                
+
 
 
             </form>

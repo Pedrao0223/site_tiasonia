@@ -2,24 +2,82 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.area-cadastro{ 
+.area-cadastro {
 
     margin: 50px auto;
-    width: 60vw; 
-    background-color: var(--cor-principal); 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
+    width: 60vw;
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
 
 }
 
-.form_cadastro > div{
+
+
+.area-formulario{
     display: flex; 
-    gap: 30px;
+    justify-content: center;
+    width: 60vw;
+}
+
+.form_cadastro>div {
+    display: flex; 
+    gap: 30px; 
+    width: 50vw;
+} 
+
+.DDD input{
+    width: 40px;
+
+}
+
+#numero{
+    width: 4vw;
+} 
+
+.formatacao  div{
+    display: flex;
+    flex-direction: column; 
+    flex: 1;
+} 
+
+#DDD , #numero{
+    width: 4vw;
+} 
+
+input , select{ 
+    width: 100%; 
+    padding: 7px 0; 
+    margin-bottom: 10px;
+
+} 
+
+.area-botao{
+    margin-top: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+
+} 
+
+#botao_cadastrar{ 
+    width: 50%; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em; 
+
+} 
+
+.link-login{  
+    margin-top: -25px;
+
+
 }
