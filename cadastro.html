@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -12,8 +12,8 @@
     <link rel="shortcut icon" href="imagens_tiasonia/icone_site.png" type="image/x-icon">
 </head>
 
-<body> 
-     <header>
+<body>
+    <header>
         <nav class="area_navegacao">
             <img class="logo" src="imagens_tiasonia/logo-tia-sonia.png" alt="" width="150px">
             <ul>
@@ -32,7 +32,7 @@
         </section>
 
         <section class="area-formulario">
-            <form action="#" class="form_cadastro">
+            <form action="#" class="form_cadastro" id="form-cadastrar">
 
                 <div class="area-nome formatacao">
                     <div class="priemeiro-nome titulo-campo">
@@ -59,13 +59,13 @@
 
                     <div class="senha titulo-campo">
                         <label for="Senha">Senha</label>
-                        <input type="password" id="Senha" placeholder="ooooooo" required>
+                        <input type="password" id="senha" placeholder="ooooooo" required>
                     </div>
                 </div>
                 <div class="area-contato formatacao">
                     <div class="DDD titulo-campo">
                         <label for="DDD">DDD</label>
-                        <input type="number" max="99" id="DDD" placeholder="DDD" required>
+                        <input type="number" max="99" id="ddd" placeholder="DDD" required>
                     </div>
                     <div class="telefone titulo-campo">
                         <label for="telefone">Telefone</label>
@@ -144,12 +144,14 @@
 
     </main>
 
-        <footer class="rodape">
+    <footer class="rodape">
         <nav>
             <p class="texto_rodape"><strong>A tia sônia agradece a visita. Ficou alguma dúvida entre em contato com
                     ela.®</strong></p>
         </nav>
     </footer>
+
+    <script src="login_cadastro.js"></script>
 
 </body>
 
