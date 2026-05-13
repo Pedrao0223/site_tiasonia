@@ -23,7 +23,7 @@ if (nomeDigitado === nomeUsuario1 && senhaUsuario1 === senhaUsuario1)
     
     alert("login falhou! Email ou senha incorretas")
     document.body.classList.add("acesso_negado")
-    document.getElementById("banner__image").src = "img/"
+    document.getElementById("banner__image").src = "imagens_tiasonia/acesso-negado-img.png"
 } 
 
 
@@ -43,5 +43,7 @@ if(idadeUsuario >= 18 && RendaUsuario >= 1000){
 
     alert("infelizmente nao pode acessar")
 }
-*/
+*/ 
+
+
 
